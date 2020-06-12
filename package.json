@@ -1,0 +1,15 @@
+{
+  "name": "cjy-socket",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "消息通信"
+  ],
+  "author": "陈俊义 629162344@qq.com",
+  "license": "ISC"
+}
