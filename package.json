@@ -1,12 +1,12 @@
 {
   "name": "cjy-socket",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "原生websocket封装的插件，可以监听与发送服务端约定好的所有事件",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chen-junyi/socket-js"
-  }, 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
