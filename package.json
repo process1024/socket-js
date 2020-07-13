@@ -1,6 +1,6 @@
 {
   "name": "cjy-socket",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "原生websocket封装的插件，可以监听与发送服务端约定好的所有事件",
   "main": "dist/index.js",
   "repository": {
