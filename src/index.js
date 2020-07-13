@@ -135,7 +135,7 @@ class Socket {
             this.loopConnectBackTimer = null
         }
     }
-  }
+}
   
-  module.exports = Socket
+module.exports = Socket
   
