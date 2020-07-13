@@ -15,7 +15,7 @@ $ yarn add cjy-socket
 ```javascript
 import Socket from 'cjy-socket';
 
-const socket = new Scoket('localhost:3000') // 参数为具体的socket地址
+const socket = new Socket('localhost:3000') // 参数为具体的socket地址
 
 socket.initSocket()
 
