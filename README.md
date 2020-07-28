@@ -70,3 +70,7 @@ export default {
  removeListener | 移除监听的某个事件 | 	event |
  removeAllListener | 移除监听的所有事件
  closeSocket | 断开socket连接
+
+## git 地址
+[https://github.com/chen-junyi/socket-js](https://github.com/chen-junyi/socket-js)
+欢迎交流~
