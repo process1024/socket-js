@@ -2,7 +2,7 @@ class Socket {
     constructor (domain) {
         this.socketDomain = domain
         this.messageArr = [] // 单个监听事件数据
-        this.messageALl = {}
+        this.messageAll = {}
         this.sessid = ''
         this.SocketTask = null
         this.isConnectedSocket = false // socket是否已连接
@@ -69,7 +69,7 @@ class Socket {
             // console.log('==========', JSON.parse(data))
             data = JSON.parse(data)
             let cmd = data.cmd
-            this.messageALl.cb && this.messageALl.cb(data)
+            this.messageAll.cb && this.messageAll.cb(data)
             for (const item of this.messageArr) {
                 if (item.cmd === cmd) {
                     return item.cb(data.msg)
@@ -89,7 +89,7 @@ class Socket {
   
     // 监听所有事件
     listenAll (cb) {
-        this.messageALl = { cb }
+        this.messageAll = { cb }
     }
   
     // 取消订阅，移出监听数组
